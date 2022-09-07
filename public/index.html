@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/a838936037.js" crossorigin="anonymous"></script>
+
+     <!-- Swiper Js -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <title>React js Project</title>
+</head>
+<body>
+    <div id="root">
+        
+    </div>
+</body>
+
+<!-- Scripts -->
+
+<!-- Swiper Js -->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        slidesPerView: 2,
+        spaceBetween: 30,
+        autoplay: true,
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+    });
+</script>
+</html>
