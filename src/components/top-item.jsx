@@ -5,10 +5,10 @@ const TopItem = (props) => {
 
   const { btnHeading, title, desc } = props;
   return (
-    <div classname="top_item">
-      <button classname="btn-outline mb-20">{btnHeading}</button>
-      <h3 classname="mb-20 h3-heading">{title}</h3>
-      <p classname="paragraph text-center mb-20">{desc}</p>
+    <div className="top_item">
+      <button className="btn-outline mb-20">{btnHeading}</button>
+      <h3 className="mb-20 h3-heading">{title}</h3>
+      <p className="paragraph text-center mb-20">{desc}</p>
     </div>
   );
 };

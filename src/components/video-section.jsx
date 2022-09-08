@@ -1,7 +1,10 @@
 const VideoSection = () => {
 
   return (
+    
     <section
+
+    
       id="video_intro_section"
       className="container_fluid video_intro_section section_bg_gray">
       <div className="container">
@@ -14,6 +17,7 @@ const VideoSection = () => {
           </p>
         </div>
         <div className="bottom_item">
+            
           <img src="./assets/images/video/video-bg.png" alt />
           <div className="play_btn">
             <i className="fa-solid fa-play" />
@@ -23,4 +27,5 @@ const VideoSection = () => {
     </section>
   );
 };
+
 export default VideoSection;

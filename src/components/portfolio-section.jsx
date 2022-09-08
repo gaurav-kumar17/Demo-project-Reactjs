@@ -1,3 +1,5 @@
+import TopItem from "./top-item";
+
 const PortfolioSection = () => {
   return (
     <section
@@ -5,14 +7,12 @@ const PortfolioSection = () => {
       className="container_fluid portfolio_section section_bg_white"
     >
       <div className="container">
-        <div className="top_item">
-          <button className="btn-outline mb-20">Our Portfolio</button>
-          <h3 className="mb-20 h3-heading">Our Recent Works</h3>
-          <p className="paragraph text-center mb-20">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form.
-          </p>
-        </div>
+        <TopItem
+          btnHeading="Our Portfolio"
+          title="Our Recent Works"
+          desc="There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form."
+        />
         <div className="bottom_item">
           <nav className="tab_bar">
             <ul>
