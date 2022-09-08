@@ -18,66 +18,47 @@ const ServiceSection = () => {
         />
 
         <div className="bottom_item">
-          <div className="service_card">
-            <div className="service_card_icon mb-25">
-              <i className="fa-solid fa-pills" />
-            </div>
-            <h4 className="mb-25">Refreshing Design</h4>
-            <p className="paragraph">
-              Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
-              eirmod tempor ividunt labor dolore magna.
-            </p>
-          </div>
-          <div className="service_card">
-            <div className="service_card_icon mb-25">
-              <i className="fa-solid fa-pills" />
-            </div>
-            <h4 className="mb-25">Refreshing Design</h4>
-            <p className="paragraph">
-              Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
-              eirmod tempor ividunt labor dolore magna.
-            </p>
-          </div>
-          <div className="service_card">
-            <div className="service_card_icon mb-25">
-              <i className="fa-solid fa-pills" />
-            </div>
-            <h4 className="mb-25">Refreshing Design</h4>
-            <p className="paragraph">
-              Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
-              eirmod tempor ividunt labor dolore magna.
-            </p>
-          </div>
-          <div className="service_card">
-            <div className="service_card_icon mb-25">
-              <i className="fa-solid fa-pills" />
-            </div>
-            <h4 className="mb-25">Refreshing Design</h4>
-            <p className="paragraph">
-              Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
-              eirmod tempor ividunt labor dolore magna.
-            </p>
-          </div>
-          <div className="service_card">
-            <div className="service_card_icon mb-25">
-              <i className="fa-solid fa-pills" />
-            </div>
-            <h4 className="mb-25">Refreshing Design</h4>
-            <p className="paragraph">
-              Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
-              eirmod tempor ividunt labor dolore magna.
-            </p>
-          </div>
-          <div className="service_card">
-            <div className="service_card_icon mb-25">
-              <i className="fa-solid fa-pills" />
-            </div>
-            <h4 className="mb-25">Refreshing Design</h4>
-            <p className="paragraph">
-              Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
-              eirmod tempor ividunt labor dolore magna.
-            </p>
-          </div>
+          <ServiceCard
+            title="Refreshing Design"
+            desc="Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+              eirmod tempor ividunt labor dolore magna."
+            icon="fa-pills"
+          />
+
+          <ServiceCard
+            title="Web Development"
+            desc="Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+              eirmod tempor ividunt labor dolore magna."
+            icon="fa-pills"
+          />
+
+          <ServiceCard
+            title="Android Development"
+            desc="Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+              eirmod tempor ividunt labor dolore magna."
+            icon="fa-pills"
+          />
+
+          <ServiceCard
+            title="Machine Learning"
+            desc="Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+              eirmod tempor ividunt labor dolore magna."
+            icon="fa-pills"
+          />
+
+          <ServiceCard
+            title="Data Science"
+            desc="Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+              eirmod tempor ividunt labor dolore magna."
+            icon="fa-pills"
+          />
+
+          <ServiceCard
+            title="Blockchain Development"
+            desc="Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+              eirmod tempor ividunt labor dolore magna."
+            icon="fa-pills"
+          />
         </div>
       </div>
     </section>

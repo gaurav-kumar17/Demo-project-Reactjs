@@ -1,3 +1,4 @@
+import TopItem from "./top-item";
 const TeamSection = () => {
   return (
     <section
@@ -5,14 +6,14 @@ const TeamSection = () => {
       className="container_fluid team_section section_bg_white"
     >
       <div className="container">
-        <div className="top_item">
-          <button className="btn-outline mb-20">Our Team</button>
-          <h3 className="mb-20 h3-heading">Our Creative Team</h3>
-          <p className="paragraph text-center mb-20">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form.
-          </p>
-        </div>
+        <TopItem
+          btnHeading="Our Team"
+          title="Our Creative Team"
+          desc="There are many variations of passages of Lorem Ipsum available,
+                    but the
+                    majority have suffered
+                    alteration in some form."
+        />
         <div className="bottom_item">
           <div className="team_card">
             <img src="./assets/images/team/team-1.jpg" alt />

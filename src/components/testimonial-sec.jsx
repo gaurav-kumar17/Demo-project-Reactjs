@@ -1,3 +1,4 @@
+import TopItem from "./top-item";
 const TestimonialSec = () => {
   return (
     <section
@@ -5,14 +6,14 @@ const TestimonialSec = () => {
       className="container_fluid testimonial_section section_bg_gray"
     >
       <div className="container">
-        <div className="top_item">
-          <button className="btn-outline mb-20">Customer Reviews</button>
-          <h3 className="mb-20 h3-heading">Our Testimonials</h3>
-          <p className="paragraph text-center mb-20">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form.
-          </p>
-        </div>
+      <TopItem
+          btnHeading="Customer Reviews"
+          title="Our Testimonials"
+          desc="There are many variations of passages of Lorem Ipsum available,
+                    but the
+                    majority have suffered
+                    alteration in some form."
+        />
         <div className="bottom_item">
           {/* Slider main container */}
           <div className="swiper">

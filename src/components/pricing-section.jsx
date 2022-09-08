@@ -1,3 +1,4 @@
+import TopItem from "./top-item";
 const PricingSection = () => {
   return (
     <section
@@ -5,14 +6,11 @@ const PricingSection = () => {
       className="container_fluid pricing_section section_bg_gray"
     >
       <div className="container">
-        <div className="top_item">
-          <button className="btn-outline mb-20">Pricing</button>
-          <h3 className="mb-20 h3-heading">Pricing &amp; Plans</h3>
-          <p className="paragraph text-center mb-20">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form.
-          </p>
-        </div>
+        <TopItem
+          btnHeading="Pricing"
+          title="Pricing & Plans"
+          desc="There are many variations of passages of Lorem Ipsum available,but the majority have suffered alteration in some form."
+        />
         <div className="bottom_item">
           <div className="pricing_card">
             {/* <button class="btn-outline mb-30">Starter</button>

@@ -1,58 +1,40 @@
+import ContentBox from "./content-box";
+import TopItem from "./top-item";
+
 const BlogSection = () => {
   return (
     <section id="blog_section" className="container_fluid blog_section">
       <div className="container">
-        <div className="top_item">
-          <button className="btn-outline mb-20">latest news</button>
-          <h3 className="mb-20 h3-heading">Latest News &amp; Blog</h3>
-          <p className="paragraph text-center mb-20">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form.
-          </p>
-        </div>
+      <TopItem
+          btnHeading="Latest news"
+          title="Latest News & Blog"
+          desc="There are many variations of passages of Lorem Ipsum available,
+                    but the
+                    majority have suffered
+                    alteration in some form."
+        />
         <div className="bottom_item">
-          <div className="content_box">
-            <div className="img_box">
-              <img src="./assets/images/blog/1.jpg" alt />
-              <div className="img_box__content">
-                <img src="./assets/images/blognews.jpg" alt />
-                <span>by tim nortion</span>
-              </div>
-            </div>
-            <h4>Make your team a Design driven company</h4>
-            <p className="paragraph">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto,
-              voluptatibus cumque iste repellat consequuntur tenetur.
-            </p>
-          </div>
-          <div className="content_box">
-            <div className="img_box">
-              <img src="./assets/images/blog/2.jpg" alt />
-              <div className="img_box__content">
-                <img src="./assets/images/blognews.jpg" alt />
-                <span>by tim nortion</span>
-              </div>
-            </div>
-            <h4>Make your team a Design driven company</h4>
-            <p className="paragraph">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto,
-              voluptatibus cumque iste repellat consequuntur tenetur.
-            </p>
-          </div>
-          <div className="content_box">
-            <div className="img_box">
-              <img src="./assets/images/blog/3.jpg" alt />
-              <div className="img_box__content">
-                <img src="./assets/images/blognews.jpg" alt />
-                <span>by tim nortion</span>
-              </div>
-            </div>
-            <h4>Make your team a Design driven company</h4>
-            <p className="paragraph">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto,
-              voluptatibus cumque iste repellat consequuntur tenetur.
-            </p>
-          </div>
+          <ContentBox
+            img="./assets/images/blog/1.jpg"
+            logo="./assets/images/blognews.jpg"
+            logotitle="by Tim Norton"
+            title="Make your team a Design driven company"
+            desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, voluptatibus cumque iste repellat consequuntur tenetur."
+          />
+          <ContentBox
+            img="./assets/images/blog/1.jpg"
+            logo="./assets/images/blognews.jpg"
+            logotitle="by Tim Norton"
+            title="Make your team a Design driven company"
+            desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, voluptatibus cumque iste repellat consequuntur tenetur."
+          />
+         <ContentBox
+            img="./assets/images/blog/1.jpg"
+            logo="./assets/images/blognews.jpg"
+            logotitle="by Tim Norton"
+            title="Make your team a Design driven company"
+            desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, voluptatibus cumque iste repellat consequuntur tenetur."
+          />
         </div>
       </div>
     </section>

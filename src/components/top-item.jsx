@@ -1,4 +1,3 @@
-import React from "react";
 
 const TopItem = (props) => {
   // props are used to pass data from one components to another.
